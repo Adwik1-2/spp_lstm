@@ -9,6 +9,7 @@ from tensorflow.keras.layers import LSTM, Dense, Dropout, BatchNormalization
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.losses import Huber
 
+
 st.set_page_config(page_title="LSTM Stock Predictor", page_icon="📈", layout="wide")
 
 st.markdown("""
