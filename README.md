@@ -60,6 +60,8 @@ Yahoo Finance ─▶ Feature engineering ─▶ LSTM training ─▶ Recursive f
 5. **Persistence** — before predicting, the app checks the SQLite cache; on a miss it
    trains, forecasts, and **saves** the result.
 6. **Feedback correction** — see below.
+<img width="1918" height="903" alt="image" src="https://github.com/user-attachments/assets/f02b42df-4736-40f5-b12f-9a889a0845b3" />
+
 
 ### 🗄️ The prediction store (SQLite)
 
