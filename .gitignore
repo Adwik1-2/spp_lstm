@@ -1,0 +1,8 @@
+# Prediction cache (local SQLite store — regenerated at runtime)
+predictions.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
