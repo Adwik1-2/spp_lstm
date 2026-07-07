@@ -35,6 +35,8 @@ systematic error is fed back to sharpen future forecasts.
 - **Global tickers** — US equities plus Indian NSE stocks (append `.NS`).
 
 ---
+<img width="1918" height="910" alt="image" src="https://github.com/user-attachments/assets/48de81ca-9256-4710-9f66-93ca695d3e5a" />
+
 
 ## 🧠 How it works
 
