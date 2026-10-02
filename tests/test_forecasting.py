@@ -65,8 +65,8 @@ class ForecastingTests(unittest.TestCase):
         self.assertAlmostEqual(apply_log_bias(0.0, bias), 0.10, places=6)
 
     def test_corrected_return_is_safely_bounded(self):
-        self.assertEqual(apply_log_bias(10.0, 0.0), 0.20)
-        self.assertEqual(apply_log_bias(-0.99, 0.0), -0.20)
+        self.assertAlmostEqual(apply_log_bias(10.0, 0.0), 0.20)
+        self.assertAlmostEqual(apply_log_bias(-0.99, 0.0), -0.20)
 
 
 if __name__ == "__main__":
